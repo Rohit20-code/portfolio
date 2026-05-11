@@ -1,0 +1,32 @@
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 10%;
+}
+
+.small-title{
+    letter-spacing:4px;
+    color:#00ffff;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:72px;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    color:#00ffff;
+    margin-bottom:20px;
+}
+
+.hero-description{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+    color:#cbd5e1;
+}

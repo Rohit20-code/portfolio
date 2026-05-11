@@ -1,0 +1,20 @@
+
+@media(max-width:900px){
+
+    nav{
+        display:none;
+    }
+
+    .hero h1{
+        font-size:45px;
+    }
+
+    .section{
+        padding:80px 7%;
+    }
+
+    .quote{
+        font-size:18px;
+    }
+
+}

@@ -1,0 +1,52 @@
+
+.education-container,
+.skills-container,
+.projects-container,
+.favorites-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.education-card,
+.skill-card,
+.project-card,
+.favorite-card,
+.quote-card{
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    transition:0.3s;
+    backdrop-filter:blur(10px);
+}
+
+.education-card:hover,
+.skill-card:hover,
+.project-card:hover,
+.favorite-card:hover,
+.quote-card:hover{
+    transform:translateY(-8px);
+    border-color:#00ffff;
+    box-shadow:0 0 20px rgba(0,255,255,0.2);
+}
+
+.education-card h3,
+.project-card h3,
+.favorite-card h3{
+    margin-bottom:15px;
+    color:#00ffff;
+}
+
+.quote-card{
+    max-width:850px;
+    margin:auto;
+}
+
+.quote{
+    font-size:24px;
+    line-height:1.8;
+    color:#00ffff;
+    margin-bottom:20px;
+}
